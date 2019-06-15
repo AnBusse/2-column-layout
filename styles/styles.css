@@ -1,17 +1,34 @@
 body {
-  font-family: 'montserrat', Arial, sans-serif;
-  font-weight:normal;
-  background-color: #eaf2e3;
+  font-family: 'montserrat', Arial, sans-serif !important;
+  font-weight: normal;
+  background-color: #D7D5D5  !important;
+  min-height: 100vh  !important;
+  border: 15px solid white  !important;
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+
+.header {
+  margin-left: -15px !important;
+  margin-bottom: 25px !important;
+  background-color: #D7D5D5;
+}
+
+.logo {
+  max-width: 90%;
+  max-height: 5%;
+}
+
+.logo-column {
+  margin-left: -30px;
 }
 
 .content-box {
-  margin: 3%;
+  margin-left: 15px;
   display: table; /* Make the container element behave like a table */
   width: 100%; /* Set full-width to expand the whole page */
-}
-
-#container-1 {
-	margin-left: 0;
 }
 
 .content {
@@ -19,6 +36,12 @@ body {
   margin:auto;
   display:inline-block;
   text-align:center;
+  width: 48% !important;
+}
+
+#home-logo {
+  margin-top: 15px;
+  float: right;
 }
 
 .border {
@@ -118,4 +141,16 @@ li.positive {
 
 *[id^="arrow-up-"] {
   display: none;
+}
+
+/* Detail page CSS */
+
+#detail-background {
+  background-color: darkgrey;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.icons-detail-list {
+  margin-bottom: 15px;
 }
