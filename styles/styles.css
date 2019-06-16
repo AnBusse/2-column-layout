@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  margin-left: -15px !important;
+  margin-left: 0 !important;
   margin-bottom: 25px !important;
   background-color: #D7D5D5;
 }
@@ -21,14 +21,14 @@ body {
   max-height: 5%;
 }
 
-.logo-column {
-  margin-left: -30px;
-}
-
 .content-box {
   margin-left: 15px;
-  display: table; /* Make the container element behave like a table */
-  width: 100%; /* Set full-width to expand the whole page */
+  display: table;
+  width: 100%;
+}
+
+.content-box-detail {
+  padding-left: 3%;
 }
 
 .content {
@@ -175,4 +175,16 @@ li.positive {
 #submit-div {
   padding-top: 15px;
   margin-left: 38% !important;
+}
+
+.add-category {
+  margin-left: 25%;
+}
+
+.label-category {
+  margin-right: -10%;
+}
+
+#icons {
+  margin-left: 33%;
 }
