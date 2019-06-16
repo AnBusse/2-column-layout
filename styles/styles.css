@@ -102,6 +102,18 @@ li.positive {
   padding-right: 10%;
 }
 
+.main-page-link, .main-page-link:hover{
+  text-decoration: none;
+}
+
+.main-page-link{
+  color: black;
+}
+
+.main-page-link:hover{
+  color: #f5f7dc;
+}
+
 /* toggle triangle icon */
 .arrow-down {
   width: 0;
@@ -158,4 +170,9 @@ li.positive {
 .login {
   margin-left: 25% !important;
   margin-right: 25% !important;
+}
+
+#submit-div {
+  padding-top: 15px;
+  margin-left: 38% !important;
 }
