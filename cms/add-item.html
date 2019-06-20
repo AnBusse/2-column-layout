@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<title>Add Item</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" crossorigin="anonymous" href="https://srp.privacy-cloud.me/serve.php?url=https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script crossorigin="anonymous" type="text/javascript" src="https://srp.privacy-cloud.me/serve.php?url=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<link href="url=https://srp.privacy-cloud.me/serve.php?url=https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+	<script crossorigin="anonymous" type="text/javascript" src="https://srp.privacy-cloud.me/serve.php?url=https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="row header">
+            <div class="col-xs-2">
+                <img src="../styles/img/logo.png" class="logo rounded float-left" alt="logo">
+            </div>
+            <div class="col-xs-8">
+                <h2>ToolFinder</h2>
+                <p>Know what you are using.</p>
+            </div>
+            <div class="col-xs-2">
+                <a href="../index.html">
+                    <img id="home-logo" src="../styles/img/home.svg" class="rounded float-right" alt="home button" height="30" width="30">
+                </a>
+            </div>
+	    </div>
+		<div id="detail-container" class="row content-box-detail">
+			<div id="detail-content-box" class="col-xs-12">
+				<div class="row" id="item-background">
+					<div class="col-xs-12 margin-bottom add-padding">
+						<div class="col-xs-12">
+							<h3>Add an item</h3>
+						</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<p>These item already exist:</p>
+									<p>( imploded PHP array of item names here )</p>
+								</div>
+							</div>
+                            <div class="row">
+								<div class="col-xs-12">
+									<h4>To add a new item, please specify the following:</h4>
+								</div>
+								<form action="#" method="post" name="item-form">
+									<div id="item-div" class="col-xs-12">
+											<div class="row item item-title">
+												<div class="col-xs-12">
+													<label for="itemname">What is the name of the item?</label>
+													<br>
+													<input id="itemname" name="itemname" type="text" value="" required />
+												</div>
+											</div>
+											<div class="row item-category-icons">
+												<div class="col-xs-6 item multiselects">
+													<label for="itemcategory">In which categories do you want to place the item? Choose at least one.</label>
+													<br>
+													<select id="itemcategory" name="itemcategory" required multiple size="5">
+														<option>Category 1</option>
+														<option>Category 2</option>
+														<option>Category 3</option>
+														<option>Category 4</option>
+														<option>Category 5</option>
+														<option>Category 6</option>
+														<option>Category 7</option>
+														<option>Category 8</option>
+													</select>
+												</div>
+												<div class="col-xs-6 item multiselects">
+													<label for="itemicons">Which icons do you want to use for this item? Choose at least one.</label>
+													<br>
+													<select id="itemicons" name="itemicons" required multiple size="5">
+														<option>Icon name 1</option>
+														<option>Icon name 2</option>
+														<option>Icon name 3</option>
+														<option>Icon name 4</option>
+														<option>Icon name 5</option>
+														<option>Icon name 6</option>
+														<option>Icon name 7</option>
+														<option>Icon name 8</option>
+													</select>
+												</div>
+											</div>
+											<div class="row item item-text">
+												<div class="col-xs-12">
+													<label for="itemtext">Add some descriptive text about the item:</label>
+													<br>
+													<textarea id="itemtext" name="itemtext" rows="3" cols="40" value=""></textarea>
+												</div>
+											</div>
+											<div class="row item item-pos">
+												<div class="col-xs-12">
+													<label for="positiveAspects">Add positive aspects in a comma separated list:</label>
+													<br>
+													<textarea id="positiveAspects" name="positiveAspects" rows="3" cols="40" value=""></textarea>
+												</div>
+											</div>
+											<div class="row item item-neg">
+												<div class="col-xs-6">
+													<label for="negativeAspects">Add negative aspects in a comma separated list:</label>
+													<br>
+													<textarea id="negativeAspects" name="negativeAspects" rows="3" cols="40" value=""></textarea>
+												</div>
+											</div>
+										</div>
+										<div id="save-div" class="col-xs-12">
+											<div class="row">
+												<div class="col-xs-3">
+													<input type="submit" value="Save">
+												</div>
+											</div>
+										</div>
+								</form>
+                            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

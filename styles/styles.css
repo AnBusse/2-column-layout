@@ -177,6 +177,10 @@ li.positive {
   margin-left: 38% !important;
 }
 
+#save-div {
+  padding-top: 15px;
+}
+
 .add-category {
   margin-left: 25%;
 }
@@ -187,4 +191,22 @@ li.positive {
 
 #icons {
   margin-left: 33%;
+}
+
+#item-background {
+  background-color: darkgrey;
+  text-align: left;
+  margin-bottom: 3vw;
+}
+
+.add-padding {
+  padding: 3%;
+}
+
+.multiselects {
+  width: 33% !important;
+}
+
+.item {
+  margin-top: 2%;
 }
